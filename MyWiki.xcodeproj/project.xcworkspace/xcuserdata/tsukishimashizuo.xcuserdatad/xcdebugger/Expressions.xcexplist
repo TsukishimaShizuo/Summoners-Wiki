@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "CollectionViewController.collectionView(UICollectionView, didSelectItemAtIndexPath : NSIndexPath) -&gt; ():CollectionViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "MyDBFW.sharedInstance.fetchEireiDetailInfo(cvc.eireiID)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MyDBFW.fetchEireiDetailInfo(Int) -&gt; EireiInfo:MyDBFrameWork.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "stmt">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CollectionViewController.collectionView(UICollectionView, cellForItemAtIndexPath : NSIndexPath) -&gt; UICollectionViewCell:CollectionViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath.item">
+            </PersistentString>
+            <PersistentString
+               value = "MyDBFW.sharedInstance.testData[indexPath.item]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.viewDidLoad() -&gt; ():ViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.alertView(UIAlertView, clickedButtonAtIndex : Int) -&gt; ():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "alertView.textFieldAtIndex(0)?.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CollectionViewController.showDebugPage(UIButton) -&gt; ():CollectionViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "storyboard">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MyDBFW.tryConnect() -&gt; ():MyDBFrameWork.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "sqlite3_prepare_v2(db, sql, -1, &amp;stmt, nil)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
