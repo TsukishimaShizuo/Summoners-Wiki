@@ -29,6 +29,8 @@
 		219811141CF2A04600E41147 /* FilterPresentationAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219811131CF2A04600E41147 /* FilterPresentationAnimationController.swift */; };
 		21A6A9331CEC30EE0055DD91 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A6A9321CEC30EE0055DD91 /* libsqlite3.tbd */; };
 		21C13D791CF2CC7D003E1157 /* FilterDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C13D781CF2CC7D003E1157 /* FilterDelegate.swift */; };
+		21D1434E1D4DF6C300254965 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D1434D1D4DF6C300254965 /* TableViewController.swift */; };
+		21D143501D4DF87400254965 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D1434F1D4DF87400254965 /* TableViewCell.swift */; };
 		21E243B81CED7CF700B98083 /* EireiProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E243B61CED7CF700B98083 /* EireiProperty.swift */; };
 		21E243B91CED7CF700B98083 /* EireiType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E243B71CED7CF700B98083 /* EireiType.swift */; };
 /* End PBXBuildFile section */
@@ -80,6 +82,8 @@
 		21A6A9321CEC30EE0055DD91 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		21A6A9351CEC31E20055DD91 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		21C13D781CF2CC7D003E1157 /* FilterDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterDelegate.swift; sourceTree = "<group>"; };
+		21D1434D1D4DF6C300254965 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		21D1434F1D4DF87400254965 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		21E243B61CED7CF700B98083 /* EireiProperty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EireiProperty.swift; sourceTree = "<group>"; };
 		21E243B71CED7CF700B98083 /* EireiType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EireiType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -188,6 +192,8 @@
 				2110CBB11CEC5397004B79A4 /* MyDBFrameWork.swift */,
 				2142E2EB1CE42B7200167332 /* CollectionViewCell.swift */,
 				2142E2E71CE418BA00167332 /* CollectionViewController.swift */,
+				21D1434F1D4DF87400254965 /* TableViewCell.swift */,
+				21D1434D1D4DF6C300254965 /* TableViewController.swift */,
 				2142E2ED1CE430D200167332 /* DetailInfoViewController.swift */,
 				214415D81CE98F7F009ED724 /* DebugViewController.swift */,
 			);
@@ -342,9 +348,11 @@
 				2142E2B71CE4159000167332 /* ViewController.swift in Sources */,
 				2142E2EC1CE42B7200167332 /* CollectionViewCell.swift in Sources */,
 				214415D91CE98F7F009ED724 /* DebugViewController.swift in Sources */,
+				21D143501D4DF87400254965 /* TableViewCell.swift in Sources */,
 				2142E2F81CE446AF00167332 /* EireiSkill.swift in Sources */,
 				2142E2F41CE4441300167332 /* EireiInfo.swift in Sources */,
 				219811121CF299B300E41147 /* FilterPresentationController.swift in Sources */,
+				21D1434E1D4DF6C300254965 /* TableViewController.swift in Sources */,
 				2110CBB21CEC5397004B79A4 /* MyDBFrameWork.swift in Sources */,
 				217823ED1CF4407300845F09 /* FirstResponderDelegate.swift in Sources */,
 				21E243B91CED7CF700B98083 /* EireiType.swift in Sources */,

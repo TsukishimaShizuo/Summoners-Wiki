@@ -50,6 +50,7 @@ class DetailInfoViewController: UIViewController {
     var skill4 : EireiSkill = EireiSkill()
 
     override func viewDidLoad() {
+        
         super.viewDidLoad()
         
         if (!initialized) {
@@ -342,6 +343,14 @@ class DetailInfoViewController: UIViewController {
         view.addConstraint(NSLayoutConstraint(item: skillLabel4, attribute: NSLayoutAttribute.Bottom, relatedBy: NSLayoutRelation.Equal, toItem: view,
             attribute: NSLayoutAttribute.Bottom, multiplier: 1.0, constant: 0.0))
         
+    }
+    
+    override func motionBegan(motion: UIEventSubtype, withEvent event: UIEvent?) {
+        if (id == 481) {
+            let dbgv = TableViewController()
+            navigationController?.pushViewController(dbgv, animated: true)
+            print("shaking")
+        }
     }
 
 }
